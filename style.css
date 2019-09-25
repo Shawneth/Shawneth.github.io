@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap');
+
+/**
+    Color Codes:
+        Pink: FBEAEB
+        Blue: 2F3C7E
+    Fonts:
+        font-family: 'Montserrat', sans-serif;
+*/
+
+html{
+    font-size: 16px;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(63, 74, 126);
+    background-color: rgb(78, 92, 151);
+    overflow-x: hidden;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1, h2 {
+    font-weight: 400;
+    margin: 0.1em 0.4em;
+}
+
+h1 {
+    margin: 0 auto;
+    font-size: 2.25rem;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 0.85rem;
+}
+
+h3 {
+    display: inline-block;
+    font-weight: 200;
+    font-size: 150%;
+    padding-left: 0.3em;
+    border-bottom: 1px solid #2F3C7E;
+    border-left: 0.2em solid #2F3C7E;
+}
+
+h4 {
+    font-weight: 500;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    text-indent: 1em;
+}
+
+figcaption {
+    text-align: end;
+    font-size: 0.8em;
+}
+
+a {
+    color: rgb(2, 23, 131);
+}
+
+a:visited, a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    height: 2em;
+    background-color: rgb(238, 222, 222);    
+}
+
+.edu {
+    margin-left: 1rem;
+}
+
+.edu h4 {
+    margin-bottom: 0.625rem;
+}
+
+.edu h5 {
+    margin: 0.2em 0;
+    font-weight: 400;
+}
+
+.projects {
+    margin: 0.5rem auto;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+.projects li {
+    margin: 0.5rem 0;
+    width: 20rem;
+}
+
+.projects h4 {
+    text-align: center;
+}
+
+.cont {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(113, 172, 226);
+    clip-path: polygon(0 115vh, 100% 65%, 100% 25%, 0 15%);
+}
+
+
+.letter {
+    position: relative;
+    z-index: 2;
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: rgb(219, 201, 201);
+    display: grid;
+    row-gap: 1rem;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-content {
+    margin: 1rem auto;
+    padding: 2.25rem 0;
+    width: 90%;
+    border: 1px solid #2F3C7E;
+}
+
+.contact-info {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75em;
+}
+
+.contact-info li {
+    margin: 0 2em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.sequence-list-resume {
+    display: grid;
+    row-gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.sequence-list-resume > li {
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+}
+
+.sequence-list-resume > li:nth-child(odd) {
+    background-color: rgb(231, 213, 213);
+}
+
+.exp h4 {
+    font-size: 1.4em;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.exp h5 {
+    margin-top: 0;
+    margin-bottom: 0.4rem;
+    font-weight: 500;
+}
+
+.exp {
+    display: grid;
+    row-gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.mdl {
+    display: block;
+    margin: 0.5rem auto;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.tasks {
+    list-style-type: disc;
+    margin: 1em;
+}
+
+.grid-skill-list {
+    margin: 0 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+    row-gap: 1rem;
+    column-gap: 2rem;
+}
+
+.grid-skill-list h4 {
+    display: inline-block;
+    font-size: 115%;
+    padding: 0 0.2em;
+    margin: 0.4rem 0;
+}
+
+.genre ul {
+    margin: 0 auto;
+}
+
+.genre li {
+    white-space: nowrap;
+    font-size: 0.75em;
+    margin-bottom: 0.45em;
+    margin-left: 0.45em;
+}
