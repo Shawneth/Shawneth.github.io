@@ -162,6 +162,16 @@ footer {
     text-align: center;
 }
 
+.profiles {
+    width: 75%;
+    display: grid;
+    grid-auto-flow: column;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+    justify-content: space-between;
+}
+
 .sequence-list-resume {
     display: grid;
     row-gap: 1rem;
